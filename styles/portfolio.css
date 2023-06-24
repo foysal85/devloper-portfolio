@@ -54,6 +54,10 @@ header{
     height: 64px;
 }
 /* banner styles */
+.FAHIM{
+    height: 800px;
+    width: 1000px;
+}
 .banner{
     margin: 0 200px;
     display: flex;
@@ -105,3 +109,78 @@ td{
     text-align: center;
     padding-right: 100px;
 }
+/* What i do styles */
+.DO{
+    margin-top: 130px;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skills-container{
+    display: flex;
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
+}
+.image{
+    padding-right: 100px;
+}
+ /* Resume Style */
+ .resume-content{
+    display: flex;
+    gap: 24px;
+ }
+ .resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+ }
+ .resume .sub-title{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+ }
+ .resume .description{
+    color: #757575;
+ }
+ .resume-title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+ .resume-button{
+    margin-top: 50px;
+    text-align: center;
+ }
+ .Section-title{
+    margin-bottom: 30px;
+    text-align: center;
+ }
+ /* Contact Style */
+ .contact{
+    display: flex;
+    gap: 100px;
+    background-color: antiquewhite;
+    padding: 130px 200px;
+    margin-top: 100px;
+    
+ }
+ .contact .Section-title{
+    text-align: left;
+ }
+ .contact input,textarea{
+    margin-bottom: 24px;
+ }
